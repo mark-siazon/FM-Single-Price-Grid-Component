@@ -1,0 +1,31 @@
+@import '_variables.scss';
+
+@function px-to-rem($rem) {
+  $remValue: calc($rem / 15); // base font size: 16px
+  @return #{$remValue}rem; 
+}
+
+// <-----> Typography Placeholder <----->
+%text-center{ text-align: center;}
+
+%fw-400{ font-weight: 400;}
+%fw-700{ font-weight: 700;}
+
+// <-----> Font-color Placeholder <----->
+// Primary Colors
+%color-primary-cyan{ color: $color-primary-cyan; }
+%color-primary-bright-yellow{ color: $color-primary-bright-yellow; }
+// Neutral Colors
+%color-neutral-light-gray{ color: $color-neutral-light-gray; }
+%color-neutral-grayish-blue{ color: $color-neutral-grayish-blue; }
+
+// <-----> Flex Placeholder <----->
+%display-flex{ display: flex; }
+%col{ flex-direction: column; }
+%row{ flex-direction: row; }
+
+%justify-center{ justify-content: center; }
+
+%align-items-start{ align-items: flex-start; }
+%align-items-end{ align-items: end; }
+%align-items-center{ align-items: center; }

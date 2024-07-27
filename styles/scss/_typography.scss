@@ -1,0 +1,55 @@
+@import '_variables.scss';
+
+
+h1{
+  @extend %color-primary-cyan;
+  font-family: Karla;
+  font-size: px-to-rem(24);
+  @extend %fw-700;
+}
+
+h2{
+  color: $color-white;
+  font-size: px-to-rem(20);
+  @extend %fw-700;
+}
+
+b{
+  color: $color-primary-bright-yellow;
+  font-size: px-to-rem(18);
+  @extend %fw-700;
+}
+
+.price-subctn{
+  p{
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: px-to-rem(16);
+    @extend %fw-400;
+  }
+  
+  span{
+    color: $color-white;
+    font-size: px-to-rem(30);
+    @extend %fw-700;
+  }
+
+  +p{
+    color: $color-white;
+    font-size: px-to-rem(15);
+    @extend %fw-400;
+  }
+}
+
+button{
+  font-size: px-to-rem(16);
+  color: $color-white;
+  @extend %fw-700;
+}
+
+li{
+  color: $color-white;
+  font-size: px-to-rem(15);
+  @extend %fw-400;
+  margin-bottom: 3px;
+  opacity: 0.75;
+}
