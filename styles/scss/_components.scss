@@ -1,0 +1,76 @@
+@import '_media.scss';
+
+main{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: px-to-rem(68);
+  min-width: 290px;
+  max-width: 635px;
+  background-color: $color-white;
+  border-radius: 4px;
+  overflow: hidden;
+  @extend %align-items-center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+  header {
+    padding: 35px 22px;
+    @extend %display-flex;
+    @extend %align-items-start;
+    @extend %col;
+    gap: 22px;
+    align-self: stretch;
+    
+  }
+
+  >div {
+    @extend %display-flex;
+    @extend %row;
+    flex-wrap: wrap;
+    
+
+    .subscription{
+      flex: 1 0 auto;
+      min-width: 246px;
+
+      background-color: #26A2A0;
+      @extend %display-flex;
+      @extend %align-items-start;
+      @extend %col;
+      padding: 25px 30px;
+      gap: 25px;
+    }
+
+
+    .features{
+      flex: 1 0 auto;
+      min-width: 246px;
+
+      background-color: $color-primary-cyan;
+      @extend %display-flex;
+      @extend %align-items-start;
+      @extend %col;
+      padding: 25px 30px;
+      gap: 25px;
+    }
+
+  }
+}
+
+button {
+  @extend %display-flex;
+  @extend %align-items-center;
+  padding: 14px 0px;
+  justify-content: center;
+  align-self: stretch;
+
+  border-radius: 5px;
+  background: $color-primary-bright-yellow;
+  border: unset;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  &:hover{
+    background-color: hsl(71, 73%, 48%);
+  }
+}
