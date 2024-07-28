@@ -1,6 +1,6 @@
 # Frontend Mentor - Single price grid component
 
-This is a solution to the [Single price grid component coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub).
+This is a solution to the [Single price grid component coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc).
 
 Frontend Mentor challenges help improve skills by building realistic projects.
 
@@ -63,8 +63,8 @@ All viewports were included (except for the 4k view), in case the observer wishe
 
 ### Links:
 
-- Live Site URL: [Website Link - Click Me](https://mark-siazon.github.io/FM-Social-Proof-Section/)
-- Solution URL: [FrontEndMentor - Click Me](https://www.frontendmentor.io/solutions/social-proof-section-responsive-mobile-first-using-flexbox-scss-VgIjJ81Zb4)
+- Live Site URL: [Website Link - Click Me](https://mark-siazon.github.io/FM-Single-Price-Grid-Component/)
+- Solution URL: [FrontEndMentor - Click Me](https://www.frontendmentor.io/solutions/single-price-grid-component-responsive-using-grid-flexbox-and-scss-QQFOyS0CTk)
 
 ## My process:
 
@@ -72,6 +72,7 @@ All viewports were included (except for the 4k view), in case the observer wishe
 
 - HTML5, CSS3
 - Mobile-First Approach
+  - Grid Layout + Flexbox
 - SASS/SCSS
 
 ### What I learned:
@@ -81,6 +82,7 @@ Recap over some of the major learnings while working through this project:
 #### General things I've learned:
 
 - Review of Semantic HTML & CSS, CSS Flex Layout
+- Learned how to also use Grid Layout
 - Writing DRY code by combining similar styles
 
 <hr>
