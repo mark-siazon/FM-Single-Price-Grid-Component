@@ -7,7 +7,7 @@ main{
   min-width: 290px;
   max-width: 635px;
   background-color: $color-white;
-  border-radius: 4px;
+  border-radius: 6px;
   overflow: hidden;
   @extend %align-items-center;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);

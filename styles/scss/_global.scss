@@ -12,9 +12,10 @@ body {
   font-size: 16px;
   font-family: 'Karla', sans-serif; // - Weights: 400, 700
   min-height: 100vh;
-  background-color: $color-neutral-grayish-blue; 
+  background-color: $color-neutral-light-gray; 
   @extend %display-flex;
   @extend %align-items-center;
+  @extend %justify-center;
   @extend %col;
   overflow-x: hidden;
 }
