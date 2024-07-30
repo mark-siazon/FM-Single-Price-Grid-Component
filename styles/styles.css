@@ -24,6 +24,10 @@ main > div {
   flex-direction: row;
 }
 
+body {
+  justify-content: center;
+}
+
 main > div .features, main > div .subscription, main header {
   align-items: flex-start;
 }
@@ -42,7 +46,7 @@ body {
   font-size: 16px;
   font-family: "Karla", sans-serif;
   min-height: 100vh;
-  background-color: hsl(218, 22%, 67%);
+  background-color: hsl(204, 43%, 93%);
   overflow-x: hidden;
 }
 
@@ -57,7 +61,7 @@ main {
   min-width: 290px;
   max-width: 635px;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 6px;
   overflow: hidden;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -111,6 +115,10 @@ h2 {
 b {
   color: hsl(71, 73%, 54%);
   font-size: 1.2rem;
+}
+
+header p {
+  color: hsl(218, 22%, 67%);
 }
 
 .price-subctn p {

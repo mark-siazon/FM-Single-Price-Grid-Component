@@ -20,6 +20,10 @@ b{
   @extend %fw-700;
 }
 
+header p {
+  color: $color-neutral-grayish-blue;
+}
+
 .price-subctn{
   p{
     color: hsla(0, 0%, 100%, 0.5);
